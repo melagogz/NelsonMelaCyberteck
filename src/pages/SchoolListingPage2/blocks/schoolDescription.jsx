@@ -24,7 +24,7 @@ export default () => {
 
                     <div className="uk-width-1-2@s  uk-visible@s uk-margin-xlarge-top ">
                       <h1 className="header1 uk-margin-xlarge-top" uk-scrollspy="cls: uk-animation-fade; repeat: true">Why Schools trust us with their students’ future</h1>
-                    <p className="subText" uk-scrollspy="cls: uk-animation-fade; repeat: true">To enhance results and open new doors, we are constantly adapting our selection of courses to fit today’s accelerated tech advance.</p>
+                    <p className="subText paddingBottom" uk-scrollspy="cls: uk-animation-fade; repeat: true">To enhance results and open new doors, we are constantly adapting our selection of courses to fit today’s accelerated tech advance.</p>
                     </div>
 
                     <div className="uk-width-1-2@s">

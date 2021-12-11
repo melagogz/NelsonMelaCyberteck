@@ -118,6 +118,11 @@ export default {
             icon: minecraft_icon,
             displayName: 'Minecraft Java Edition'
         },
+        "SCRATCH_3_SOFTWARE": {
+            id: 'SCRATCH_3_SOFTWARE',
+            icon: minecraft_icon,
+            displayName: 'Scratch 3 Software'
+        }
     },
     State: {
         'DC':{

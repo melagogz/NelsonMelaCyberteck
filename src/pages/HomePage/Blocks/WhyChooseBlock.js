@@ -31,7 +31,7 @@ const WhyChooseBlock = () => (
                    <div className="uk-width-1-2@s ">
 
                        <div className="uk-margin-medium-top" >
-                         <h3 className="header3" uk-scrollspy="cls: uk-animation-fade; repeat: true">Why students choose Cybertech to supercharge their growth</h3>
+                         <h3 className="header3" uk-scrollspy="cls: uk-animation-fade; repeat: true">Why students choose Cyberteck to supercharge their growth</h3>
                          <p className="subText" uk-scrollspy="cls: uk-animation-fade; repeat: true">Looking for the best computer courses or simply to boost academic
                               results? Cyberteck Academy has you covered. Efficient tutors guide
                                the way and increase chances for a career in IT or prepare students 

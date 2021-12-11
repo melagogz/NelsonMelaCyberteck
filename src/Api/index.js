@@ -70,8 +70,8 @@ export const appConfig = {
 bhost: "https://api.cyberteckacademy.com",
 authhost: "https://api.cyberteckacademy.com",
  //host: "localhost:27019/course-api",
- host:"http://localhost:27019",
- //host:"https://cybat.herokuapp.com",
+ //host:"http://localhost:27019",
+ host:"https://cybat.herokuapp.com",
  shost: "https://api.cyberteckacademy.com",
 };
 
@@ -515,9 +515,9 @@ const getEndpoint = (url, prod = true) => {
  // console.log("URI: ", uri, "URL: ", url, "service: ", service);
   switch (service) {
     case "course-api":
-     return `http://localhost:27019/course-api/course/${uri}`;
+    // return `http://localhost:27019/course-api/course/${uri}`;
     // return `http://192.168.0.107:5002/${uri}`;
-    //return `https://cybat.herokuapp.com/${uri}`;
+    return `https://cybat.herokuapp.com/${uri}`;
     // case "user-api":
     //   return `http://192.168.0.107:5006/${uri}`;
     // case "blog-api":

@@ -38,6 +38,7 @@ import CodingCoursePage from './pages/CodingCoursePage';
 import GameDevCoursePage from './pages/GameDevCoursePage';
 import TCCoursePage from './pages/TCCoursePage/tcCoursePage';
 import CheckOut from './pages/CheckOutPage/checkout'
+import AdvancedAlgebraII from './pages/MathsTutoring/AdvancedAlgebraII/AdvancedAlgebraII';
 
 
 
@@ -89,6 +90,9 @@ function App() {
             <Route  exact path="/checkout" component={CheckOut} />
 
             <Route exact path="/" component={HomePage} />
+            
+            <Route exact path="/AdvancedAlgebraII" component={AdvancedAlgebraII} />
+
           </Switch>
         </Router>
     </div>

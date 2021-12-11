@@ -189,8 +189,9 @@
 }
 
 .App .courseBlockLabel {
-    padding: 11px !important;
-    font-weight: 625;
+    padding: 8px !important;
+    font-size:14px;
+    font-weight: 800px !important;
     padding-left: 10%;
 }
 
@@ -315,7 +316,7 @@
     }
     .App .primaryText {
         font-weight: 600;
-        font-size: 25px;
+        font-size: 19px;
         letter-spacing: 1px;
     }
     .App .headerDescriptionSmall {
@@ -330,6 +331,16 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .App .headerBox {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 10%;
+        position: relative;
+        height: 120px;
+        
+    }
+
     .headerBox .headerBoxContainer {
         margin-bottom: 0;
     }

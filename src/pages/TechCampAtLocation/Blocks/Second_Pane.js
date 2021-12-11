@@ -23,10 +23,10 @@ const Second_Pane = () => (
                of friends and explore their passion for tech with game design, animation or obstacle building. Choose a convenient location near you, or recommend us to your School or Park & Rec Center.</p>
 
                     
-         <div class="uk-flex  ">
+        { /***<div class="uk-flex  ">
            <div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">See all Courses</div>
           
-         </div>
+         </div>** */}
            </div>
     </div>
 

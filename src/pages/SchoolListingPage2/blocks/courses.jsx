@@ -102,10 +102,10 @@ console.log(error);
                            </div>
 
                            <div className="uk-margin-large-top">
-                           <ul class=" uk-subnav uk-subnav-pill" uk-switcher="animation: uk-animation-fade">
-                                                <li ><a href="#" className="activeTabBtn">All Courses</a></li>
-                                                <li><a href="#" className="InactiveTabBtn">Coding Courses</a></li>
-                                                <li><a href="#" className="InactiveTabBtn">Game Dev Courses</a></li>
+                           <ul class=" uk-subnav uk-subnav-pill " uk-switcher="animation: uk-animation-fade">
+                                                <li className="tabBTN"><a href="#" className="activeTabBtn">All Courses</a></li>
+                                                <li className="tabBTN"><a href="#" className="InactiveTabBtn">Coding Courses</a></li>
+                                                <li className="tabBTN"><a href="#" className="InactiveTabBtn">Game Dev Courses</a></li>
                              </ul>
 
                                        
@@ -183,7 +183,7 @@ console.log(error);
 
                                      <div className="uk-margin-large-top uk-margin-large-bottom">
                                           <h3 className="header1 uk-text-center">In-Person</h3>
-                                          <p className="uk-text-center withPaddingLarge"> To reach everyone’s needs, our Computer Courses will be
+                                          <p className="uk-text-center subText  withPaddingLarge"> To reach everyone’s needs, our Computer Courses will be
                                              available with a live instructor. We make sure our teachers are
                                               present at your location, both for In-Person courses and for Virtual settings.</p>
                                               <div class="uk-flex uk-flex-center  ">

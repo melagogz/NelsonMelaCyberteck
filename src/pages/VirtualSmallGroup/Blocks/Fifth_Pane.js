@@ -84,16 +84,11 @@ const Fifth_Pane = () => (
                             </div>
 
                             <div class="uk-flex withPadding ">
-                         <Link to="/#"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More </div> </Link>
+                         <Link to="/virtual-tech-camp"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More </div> </Link>
                         
                         </div>
   
                             </div>
-
-
-
-
-
 
 
 
@@ -107,22 +102,6 @@ const Fifth_Pane = () => (
 
                      </div>
              </div></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -150,7 +129,7 @@ const Fifth_Pane = () => (
                                 </div>
 
                                 <div class="uk-flex uk-flex-left uk-margin-medium-top ">
-                                          <Link to="/"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
+                                          <Link to="/contactus"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
                                    </div>
                              </div>
 

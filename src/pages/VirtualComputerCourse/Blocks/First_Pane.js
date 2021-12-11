@@ -1,11 +1,16 @@
 import react from 'react';
 import { Link } from 'react-router-dom';
+import ContactModal from '../../../features/ContactModal';
+import { useState } from "react";
+import { PrimaryButton } from '../../../features/Atoms';
 
 
 
 
-const First_Pane = () => {
-           
+export default function First_Pane(props) {
+     const [ contactModalStatus, setContactModalStatus ] = useState(false);
+
+
      return (
 
 
@@ -26,7 +31,7 @@ const First_Pane = () => {
                       </div>
 
                       <div class="uk-flex withPadding ">
-                         <Link to="/#"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Discovery Lesson </div> </Link>
+                         <Link to="/contactus"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Free 30mins Computer Lesson</div> </Link>
                         
                       </div>
   
@@ -61,7 +66,7 @@ const First_Pane = () => {
 
      ) 
 
+
 }
 
 
-export default First_Pane;

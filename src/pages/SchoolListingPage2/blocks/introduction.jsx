@@ -20,14 +20,14 @@ export default () => {
       <div className="uk-container uk-margin-xlarge-top">
                  <div className="animationBg">
 
-                 <div class="uk-text-center " data-uk-grid>
+                 <div class="uk-text-center uk-grid uk-grid-collapse" data-uk-grid>
                         <div class="uk-width-1-2@s">
                        
                         <div class="introImg2"><img src={intro_img2} alt=" Online Homeschool Program" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"/></div>
                         
                         </div>
                         <div class="uk-width-1-2@s">
-                            < p className="uk-text-left" uk-scrollspy="cls: uk-animation-fade; repeat: true">CyberTeck Academy partners up with Schools and Parks & Rec Centers to deliver
+                            < p className="uk-text-left uk-padding-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">CyberTeck Academy partners up with Schools and Parks & Rec Centers to deliver
                                  tech education closer to home. We support our students’ academic path by 
                                  adding tech knowledge and programming to their skillset. The future is tech
                                   and parents everywhere value our computer courses. Our game design,
@@ -35,7 +35,7 @@ export default () => {
                                  and make kids love learning.</p>
 
                                  
-                      <div class="uk-flex  uk-margin-small-top">
+                      <div class="uk-flex  uk-margin-small-top uk-padding-small">
                       <Link to="/contactus"  ><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Contact Us</div></Link>
                        
                       </div>

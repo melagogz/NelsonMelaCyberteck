@@ -38,7 +38,7 @@ function a11yProps(index) {
     return {
         id: `simple-tab-${index}`,
         'aria-controls': `simple-tabpanel-${index}`,
-        style: { ...{ margin: '0 5px', borderTopRightRadius: '20px',borderTopLeftRadius: '20px',backgroundColor: '#73d56e', color: 'white', minWidth: '33%', padding: 20, fontSize: 14, fontWeight: 600 } }
+        style: { ...{ margin: '0 5px', borderTopRightRadius: '6px',borderTopLeftRadius: '6px',backgroundColor: '#73d56e', color: 'white', minWidth: '15%', padding: 10, fontSize: 14, fontWeight: 400 } }
     };
 }
 

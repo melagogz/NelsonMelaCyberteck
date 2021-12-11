@@ -169,7 +169,7 @@ const TechWideWorldBlock = () => (
 
                     
                            <div class="uk-flex uk-margin-medium-top">
-                          <Link to="/maths-tutoring"><div class="btn" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
+                          <Link to="/virtualcourses"><div class="btn" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
                         
                       </div>
                    

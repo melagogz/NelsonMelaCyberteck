@@ -74,7 +74,7 @@ function CourseForm(props) {
         const errors = {};
         if (!values.title) errors.title = "Required";
         if (!values.description) errors.description = "Required";
-        if (!values.subTitle) errors.subTitle = "Required";
+        // if (!values.subTitle) errors.subTitle = "Required";
         if (!values.subDescription) errors.subDescription = "Required";
         if (!values.grade) errors.grade = "Required";
         if (!values.skillLevel) errors.skillLevel = "Required";
@@ -177,7 +177,7 @@ function CourseForm(props) {
                                 <Grid item xs={12} md={8}>
                                     <TextInputBox name="title" label="Title" required />
                                     <TextInputBox name="description" label="Description" multiline rows={4} required />
-                                    <TextInputBox name="subTitle" label="Sub Title" required />
+                                    <TextInputBox name="subTitle" label="Sub Title" />
                                     <TextInputBox name="subDescription" label="Sub Description" multiline
                                         rows={4} required />
                                     <AutoCompleteInputBox multiple

@@ -160,10 +160,7 @@ const Seventh_Pane = () => (
                             </div>
                             </div>
 
-                            <div class="uk-flex withPadding ">
-                            <Link to="/#"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More </div> </Link>
-
-                            </div>
+                           
 
                             </div>
                             

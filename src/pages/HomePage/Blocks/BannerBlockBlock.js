@@ -21,7 +21,7 @@ const BannerBlockBlock = () => (
                                     <h3  className="header5 uk-text-center light" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Claim your 30 Min <span className="greenText">Free Discovery Lesson</span></h3>
                                    
                                     <div class="uk-flex uk-text-center uk-margin-medium-top uk-flex-center">
-                                        <div class="btn-ghost" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Schedule</div>
+                                       <Link to = "//contactus"> <div class="btn-ghost" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Schedule</div></Link>
                                         
                                     </div>
 
@@ -37,7 +37,7 @@ const BannerBlockBlock = () => (
                                     <h3  className="header5 light uk-text-center" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Try out a Free 1h Math  <span className="greenText">Tutoring Lesson</span></h3>
                                    
                                     <div class="uk-flex uk-text-center uk-margin-medium-top uk-flex-center ">
-                                        <div class="btn-ghost " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Schedule</div>
+                                    <Link to ="/contactus"> <div class="btn-ghost " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Schedule</div></Link>
                                         
                                     </div>
 

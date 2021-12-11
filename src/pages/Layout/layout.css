@@ -14,6 +14,14 @@
     padding-top: 0px;
 }
 
+.btnClass{
+    background-color: transparent;
+    color: #73d56e !important;
+    border: 1px solid #73d56e !important;
+}
+
+
+
 .App .navMenu {
     display: flex;
     justify-content: center;

@@ -5,6 +5,8 @@ import {
     HeaderBox, HeaderDescription, HeaderTitle, PageBlock, PrimaryButton, PrimaryText, SecondaryText
 } from "./../../../features/Atoms"
 
+import {Link } from 'react-router-dom'
+
 
 
 const First_pane = () => {
@@ -26,9 +28,7 @@ const First_pane = () => {
                              </div>
 
                              <div class="uk-flex withPadding ">
-
-                                 <div> <PrimaryButton onClick={() => setContactModalStatus(true)} style={{ padding: 10 }} rounded>Choose Location</PrimaryButton></div>
-                        {/*<div onClick={() => setContactModalStatus(true)} class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Choose Location</div> */}
+                         <Link to="/contactus"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Contact Uss</div> </Link>
                         
                       </div>
                     </div>

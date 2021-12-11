@@ -24,7 +24,7 @@ const Fifth_Pane = () => (
                                         fit for you. No strings attached.</p>
 
                                         <div class="uk-flex withPadding ">
-                         <Link to="/#"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Discovery Lesson </div> </Link>
+                         <Link to="/contactus"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Discovery Lesson </div> </Link>
                         
                         </div>
                               </div>

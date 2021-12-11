@@ -52,7 +52,8 @@
     background-image:url("../../images/curve_laptop.png");
     background-size: cover;
     background-position: top;
-    height: 156vh;
+    height: auto;
+    padding-bottom: px;
    
   
 }

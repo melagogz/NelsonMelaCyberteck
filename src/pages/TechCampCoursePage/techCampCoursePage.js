@@ -162,7 +162,7 @@ export default function TechCampCoursePage(props) {
 
 
              {/* <Fourth_Pane /> */}
-             <TestimonialBlock />
+             <div className="uk-margin-large-top"><TestimonialBlock /></div>
              <EliteTeachersBlock />
              <Fifth_Pane />
              <Sixth_Pane />

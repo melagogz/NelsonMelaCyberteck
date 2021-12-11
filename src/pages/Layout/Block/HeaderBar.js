@@ -17,8 +17,8 @@ function HeaderBar(props) {
   });
 
   useEffect(()=> {
-   const mydata = localStorage.getItem('data')
-   const ldata = JSON.parse([mydata])
+  // const mydata = localStorage.getItem('data')
+   //const ldata = JSON.parse([mydata])
   //  const numberOfItems = [ldata].length
   //  setNumberOfItems(numberOfItems)
   // if(ldata == null ){
@@ -26,7 +26,7 @@ function HeaderBar(props) {
   // }else{
   //   setNumberOfItems(ldata.length)
   // }
-   console.log("this is my local data",ldata)
+  // console.log("this is my local data",ldata)
 
   }, [numberOfItems])
   
@@ -154,7 +154,7 @@ function HeaderBar(props) {
 
                               <div className="uk-width-1-2 ">
                                 <div className="modalBtn">
-                              <a class="uk-button uk-button-default " data-uk-toggle="target: #offcanvas-flip" uk-icon="menu" uk-toggle></a>
+                              <a class="uk-button uk-button-default btnClass" data-uk-toggle="target: #offcanvas-flip" uk-icon="menu" uk-toggle></a>
 
                       <div id="offcanvas-flip" data-uk-offcanvas="flip: true; overlay: true">
                               <div class=" mobileMenuBar uk-offcanvas-bar">

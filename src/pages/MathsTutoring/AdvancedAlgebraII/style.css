@@ -1,0 +1,54 @@
+.AdvancedHeaderBg{
+   
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../images/algebraBg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 65vh;
+  }
+
+  .rightContentDiv{
+     border-radius: 5px;
+      width:700px;
+      }
+
+      .mathsIcons{
+          width:90px;
+      }
+
+      .leftContentArea{
+          background-color: #fff;
+          padding: px;
+          position: relative;
+          top: -120px;
+          left:-50px;
+          border-radius: 5px;
+          width: 450px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          padding-bottom: 50px;
+
+      }
+
+      .iconSmallMaths{
+          width:40px !important;
+      }
+
+      .moveLeft{
+          position: relative;
+          left: -40px;
+      }
+      .moveLeftMore{
+        position: relative;
+          left: -70px;   
+      }
+
+      .BgMthsR{
+        background-image: url("../../../images/algebraBg.jpg");
+        background-size: cover;
+        background-position: center;
+       
+        height: 65vh;
+      }
+      .width500{
+          width: 700px;
+      }

@@ -15,8 +15,8 @@
 
 .introImg1{
     position: relative;
-    top: 22px;
-    left: 0px;
+    top: -30px;
+    left: 20px;
     width: 92%;
 }
 
@@ -46,6 +46,8 @@
 
 
 }
+
+
 
 .iconImg{
     width: 80px;
@@ -207,7 +209,37 @@
         }
 
 
-    
+        
+.InactiveTabBtn{
+    background-color: #73d56e !important;
+    padding: 12px 5px 12px 5px !important;
+    font-size: 9px !important;
+    text-transform:none !important;
+    color: #fff !important;
+}
+
+
+.activeTabBtn{
+    background-color: #106A75 !important;
+    padding: 12px 5px 12px 5px !important;
+    font-size: 9px !important;
+    text-align: center;
+    text-transform:none !important;
+}
+
+
+.tabBTN{
+    width:100px !important;
+}
+
+
+.uk-subnav>* {
+    flex: none;
+    padding-left: 10px !important;
+    position: relative;
+}
+  
+
         
 .introImg2 {
     
@@ -221,7 +253,7 @@
 
 .introImg1 {
     position: absolute;
-    top: 626px;
+    top: 583px;
     left: 129px;
     width: 55%;
 }
@@ -233,6 +265,7 @@
     padding: 15px;
     border-radius: 10px;
     width: 315px;
+    margin-left: 10px;
     padding-bottom: 20px;
     padding-top: 30px;
  
@@ -243,8 +276,8 @@
     background-size: cover;
     height: aut0;
     padding-bottom: 60px;
-    padding-top: 46px;
-    margin-top: -90px;
+    padding-top: 17px;
+    margin-top: 33px;
 }
 
 

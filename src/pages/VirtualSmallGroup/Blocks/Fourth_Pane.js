@@ -50,7 +50,7 @@ const Fourth_Pane = () => (
                                </div>
 
                                <div class="uk-flex uk-flex-center uk-margin-medium-top ">
-                                          <Link to="/courses"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
+                                          <Link to="/coding-courses"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
                                    </div>
 
                             </div>
@@ -82,7 +82,7 @@ const Fourth_Pane = () => (
                                </div>
 
                                <div class="uk-flex uk-flex-center uk-margin-medium-top ">
-                                          <Link to="/"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
+                                          <Link to="/game-dev"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More</div> </Link>
                                    </div>
 
                             </div>

@@ -19,7 +19,16 @@ const Fifth_Pane = () => (
                      their tech education. We make it easy and accessible for your kid to experience fun Summer and 
                      Spring Break Camps. Check locations available and choose one that is closer to you. Go for 
                      Virtual or In-Person and start attending at partner locations near you.</p>
+
+                     <div class="uk-flex withPadding uk-margin-large-bottom">
+                         <Link to="/tech-camp-at-school-location"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Learn More </div> </Link>
+                       
+                      </div>
              </div>
+
+            
+
+             
       </div>
 
 
