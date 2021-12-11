@@ -21,6 +21,7 @@ import indexImg from "./../../images/Indexbackground.jpg";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { useState } from "react";
 import ContactModal from './../../features/ContactModal';
+
 export default function HomePage(props) {
     const [ contactModalStatus, setContactModalStatus ] = useState(false);
 

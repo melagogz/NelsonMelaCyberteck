@@ -19,7 +19,7 @@ const First_Pane = () => (
                       </div>
 
                       <div class="uk-flex withPadding ">
-                         <Link to="/#"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Choose Location</div> </Link>
+                         <Link to="/contactuss"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Contact Usss</div> </Link>
                          
                       </div>
   
