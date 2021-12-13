@@ -27,7 +27,7 @@ const Fourth_Pane = () => {
     }
     const courseList = data.data
     return (
-        <div className="uk-container uk-margin-large-top ">
+        <div className="uk-container negative100 uk-margin-large-top ">
                      <div>
                        <h1 className="header1 withPaddingLarge uk-text-center">CyberTeck Academy’s top choice for Schools and Parks & Rec Centers</h1>
                            <p className="subText uk-text-center">Tech expertise put into the service of Education</p>
@@ -86,10 +86,11 @@ const Fourth_Pane = () => {
                                           <p className="uk-text-center withPaddingLarge"> To reach everyone’s needs, our Computer Courses will be
                                              available with a live instructor. We make sure our teachers are
                                               present at your location, both for In-Person courses and for Virtual settings.</p>
-                                              <div class="uk-flex uk-flex-center  ">
-                        <div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Virtual Courses</div>
-                        
-                      </div>
+
+
+                                              <div class="uk-flex uk-flex-center  uk-margin-medium-top">
+                                                <div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Virtual Courses</div>
+                                             </div>
                                      </div>
 
 

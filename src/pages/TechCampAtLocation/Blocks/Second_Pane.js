@@ -10,7 +10,7 @@ const Second_Pane = () => (
 
 
     <div className="uk-container uk-margin-xlarge-top">
-    <div className="animationBg">
+    <div className="">
 
     <div class="uk-text-center " data-uk-grid>
            <div class="uk-width-1-2@s">
@@ -19,7 +19,7 @@ const Second_Pane = () => (
            
            </div>
            <div class="uk-width-1-2@s"> 
-               < p className="uk-text-left uk-margin-bottom" uk-scrollspy="cls: uk-animation-fade; repeat: true">Your child can join a smart group 
+               < p className="uk-text-left uk-margin-bottom uk-padding-small" uk-scrollspy="cls: uk-animation-fade; repeat: true">Your child can join a smart group 
                of friends and explore their passion for tech with game design, animation or obstacle building. Choose a convenient location near you, or recommend us to your School or Park & Rec Center.</p>
 
                     

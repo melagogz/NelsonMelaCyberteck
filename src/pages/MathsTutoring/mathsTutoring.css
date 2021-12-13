@@ -1,11 +1,4 @@
-.mathsTutorBg{
-   
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./../../images/Maths_tutoring.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 85vh; 
-}
+
 
 .mathsLeftBg{
     background-image: url("./../../images/mathsBg.png");
@@ -34,14 +27,6 @@
     font-weight: 800;
 }
 
-.mathStatsBg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./../../images/centerBg.png");
-    background-size: cover;
-    background-position: center;
-   padding-top: 80px;
-   background-attachment: fixed;
-    height: 50vh; 
-}
 
 .CTAwidth{
     width: 550px

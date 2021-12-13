@@ -1,9 +1,23 @@
 import React from "react";
+import techCamBg from './../../../images/ty.jpg'
 
 
 const Sixth_Pane = () => (
 
-     <section className="uk-margin-small-top  accBgTechCamp">
+     <section className="uk-margin-small-top  "
+     
+     style={{ backgroundImage: `url(${techCamBg})`,
+     backgroundRepeat: 'no-repeat',
+     backgroundSize: 'cover',
+     paddingBottom: '67px',
+     height: 'auto',
+       }}
+     
+     
+     
+     
+     
+     >
              <div className="uk-container">
                  <div className=" uk-margin-large-top  ">
                    <div className="" data-uk-grid>

@@ -101,7 +101,8 @@ function HeaderBar(props) {
                                       <Link to ="/teacher" > <li className=""><a href="#"> Our Teachers</a></li> </Link>
                                       <Link to ="/blog">  <li className=""><a href="#">Blog</a></li> </Link>
                                        <Link to ="/contactus" > <li className=""><a href="#">Contact Us</a></li> </Link>
-                                        <li className=""><a href="#">Online programs FAQs</a></li>
+                                       
+                                                 {/** * <Link to =""> <li><a href="#">Online programs FAQs</a></li></Link>**/}
                                     </ul>
                                 </div>
                             </li>
@@ -193,7 +194,8 @@ function HeaderBar(props) {
 
                                                     <li><a href="#">Courses</a>
 
-                                                        <ul>
+                                                        <ul className="dropdown">
+                                                        <Link to="/computer-course"> <li><a href="#"> Computer Courses </a></li>  </Link>
 
                                                            <Link to="/coding-courses"> <li><a href="#"> Coding Courses </a></li>  </Link>
 
@@ -212,12 +214,12 @@ function HeaderBar(props) {
                                                       <ul>
 
                                                           <Link to ="/about-us"><li><a href="#"> About Us</a></li> </Link>
+                                                          <Link to ="/teacher" > <li className=""><a href="#"> Our Teachers</a></li> </Link>
 
                                                          <Link to ="/blog"> <li><a href="#">Blog</a></li> </Link>
 
-                                                         <Link to ="/contactus"> <li><a href="#">  Contact Us</a></li></Link>
-
-                                                         <Link to =""> <li><a href="#">Online programs FAQs</a></li></Link>
+                                                         <Link to ="/contactus"> <li><a href="#">  Contact Us</a></li></Link> 
+                                                 {/** * <Link to =""> <li><a href="#">Online programs FAQs</a></li></Link>**/}
 
                                                     </ul>
                                                 </li>

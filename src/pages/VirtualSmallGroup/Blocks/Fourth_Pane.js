@@ -5,6 +5,8 @@ import b2 from './../../../images/b2.jpg'
 import b1 from './../../../images/b1.jpg'
 import minecraft from './../../../images/minecraft.jpg'
 import {Link } from 'react-router-dom'
+import OnegroupBG from './../../../images/1-1-group.jpg'
+import minecraftComboBg  from './../../../images/minecraft.jpg'
 
 
 const Fourth_Pane = () => (
@@ -25,13 +27,25 @@ const Fourth_Pane = () => (
        <section>
                   {/**First bundle row**/}
                 <div className="uk-grid-collapse uk-grid" data-uk-grid>
-                     <div className="uk-width-1-2@s ">
-                             <div className="one-one-groupBG">
+                     <div className="uk-width-1-2@l ">
+                             <div className=""
+                             
+                             
+                             style={{ backgroundImage: `url(${OnegroupBG})`,
+                             backgroundRepeat: 'no-repeat',
+                             backgroundSize: 'cover',
+                             paddingBottom: '27px',
+                             height: '100vh',
+                               }}
+                             
+                             
+                             
+                             >
 
                              </div>
                      </div>
 
-                     <div className="uk-width-1-2@s uk-padding">
+                     <div className="uk-width-1-2@l uk-padding">
                            <div className="uk-margin-small-top uk-margin-large-right">
                                <h3 className="header3 uk-text-center">Coding <span className="greenText">Course Path</span></h3>
                                <p className=" uk-text-center subText">Take that first step in getting essential coding skills. Our dedicated teachers
@@ -64,7 +78,7 @@ const Fourth_Pane = () => (
                   <div className="uk-grid-collapse uk-grid uk-margin-remove-top" data-uk-grid>
                      
 
-                     <div className="uk-width-1-2@s uk-padding">
+                     <div className="uk-width-1-2@l uk-padding">
                            <div className="uk-margin-medium-top uk-margin-large-left">
                                <h3 className="header3 uk-text-center">Minecraft <span className="greenText">Content Development</span></h3>
                                <p className=" uk-text-center subText">The popular universe gets your child involved and fascinated. He can bring 
@@ -90,8 +104,19 @@ const Fourth_Pane = () => (
                      </div>
 
 
-                     <div className="uk-width-1-2@s ">
-                             <div className="minecraftComboBg">
+                     <div className="uk-width-1-2@l ">
+                             <div className=""
+                             
+                             
+                             style={{ backgroundImage: `url(${minecraftComboBg})`,
+                             backgroundRepeat: 'no-repeat',
+                             backgroundSize: 'cover',
+                             paddingBottom: '27px',
+                             height: '100vh',
+                               }}
+                             
+                             
+                             >
 
                              </div>
                      </div>

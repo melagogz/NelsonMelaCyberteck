@@ -46,6 +46,10 @@ import check from './../../images/check.png'
 import modsPprojects from './../../images/mods_projects.png'
 import increase from './../../images/increase.png'
 import increase2 from './../../images/increase2.png'
+import ComputerCourseBg from './../../images/computer_course.jpg'
+import CCDesignImg from   './../../images/bg_features.jpg'
+
+import teachersBg from './../../images/teachers_bg.jpg'
 
 
 
@@ -66,7 +70,17 @@ export default function ComputerCoursePage(props) {
     return (
         <Layout>
                   {/**First Pane**/}
-                  <div className="ComputerCourseBg">
+                  <div className=""
+                  
+                  style={{ backgroundImage: `url(${ComputerCourseBg})`,
+                  backgroundRepeat: 'no-repeat',
+                  backgroundSize: 'cover',
+                  paddingBottom: '27px',
+                  height: 'auto',
+                    }}
+                  
+                  
+                  >
             
             <div className="uk-container" >
             <div className="uk-grid  " data-uk-grid>
@@ -98,7 +112,18 @@ export default function ComputerCoursePage(props) {
           
           
          {/**SECOND PANE**/}
-           <section className="CCDesignImg">
+           <section className=""
+           
+           style={{ backgroundImage: `url(${CCDesignImg})`,
+           backgroundRepeat: 'no-repeat',
+           backgroundSize: 'cover',
+           paddingBottom: '27px',
+           height: 'auto',
+             }}
+           
+           
+           
+           >
              <div className="uk-container">
                       
              <div className="uk-width-1-1 uk-flex uk-flex-center">
@@ -174,7 +199,7 @@ export default function ComputerCoursePage(props) {
                    <div className="uk-container">
                        <div className="uk-width-1-1" >
                             <div className="uk-margin-large-top">
-                               <h1 className="uk-text-center header1"> e  Experiences to <span className="greenText"> choose </span> from</h1>
+                               <h1 className="uk-text-center header1">  Experiences to <span className="greenText"> choose </span> from</h1>
                             </div>
                        </div>
 
@@ -368,7 +393,18 @@ export default function ComputerCoursePage(props) {
             </div>
 
 
-            <section className="teachersBg uk-margin-xlarge-top ">
+            <section className=" uk-margin-xlarge-top "
+            
+            style={{ backgroundImage: `url(${teachersBg})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            paddingBottom: '27px',
+            height: 'auto',
+              }}
+            
+            
+            
+            >
                          <CertifiedTeacherBlock />
             </section>
 

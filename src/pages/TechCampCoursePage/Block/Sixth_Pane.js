@@ -1,9 +1,20 @@
 import React from "react";
+import accBgTechCamp from './../../../images/ty.jpg'
 
 
 const Sixth_Pane = () => (
 
-     <section className="uk-margin-xlarge-top  accBgTechCamp">
+     <section className="uk-margin-xlarge-top  "
+     
+     style={{ backgroundImage: `url(${accBgTechCamp})`,
+     backgroundRepeat: 'no-repeat',
+     backgroundSize: 'cover',
+     paddingBottom: '67px',
+     height: 'auto',
+       }}
+     
+     
+     >
              <div className="uk-container">
                  <div className=" uk-margin-large-top  ">
                    <div className="" data-uk-grid>

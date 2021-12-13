@@ -1,18 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import guarantee from "./../../../images/guaranteed.png"
+import mathsLeftBg from "./../../../images/mathsBg.png"
 
 
 const Third_Pane = () => (
           <div className="uk-margin-xlarge-top">
               <div className="uk-grid uk-grid-collapse" data-uk-grid>
-                  <div className="uk-width-3-5@s">
-                       <div className="mathsLeftBg">
-                           <p>hello</p>
+                  <div className="uk-width-3-5@l">
+                       <div className=""
+                       
+                       style={{ backgroundImage: `url(${mathsLeftBg})`,
+                       backgroundRepeat: 'no-repeat',
+                       backgroundSize: 'cover',
+                       paddingBottom: '27px',
+                       height: '66.6vh',
+                         }}
+                       
+                       >
+                           <p></p>
                        </div>
                   </div>
 
-                  <div className="uk-width-2-5@s">
+                  <div className="uk-width-2-5@l">
                        <div className="rightGreenBg uk-padding">
                            <div className="uk-margin-top">
                                <img src={guarantee} className="iconGurantee"/>

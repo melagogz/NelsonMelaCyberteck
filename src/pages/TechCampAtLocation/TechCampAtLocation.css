@@ -108,7 +108,7 @@
 
 .introImg1Tech {
     position: relative;
-    top: -474px;
+    top: -438px;
     left: 125px;
     width: 65%;
 }
@@ -116,8 +116,13 @@
 
 .negativeMobileTech {
     position: relative;
-    top:- 260px !important;
+    top:-200px !important;
 }
 
+
+.negative100{
+    position: relative;
+    top:-160px !important;
+}
 
    }

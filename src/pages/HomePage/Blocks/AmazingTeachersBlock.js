@@ -31,46 +31,52 @@ future tech savvy with top  <span className="greenText">Teachers</span></h3>
                                <div className="uk-margin-medium-bottom">
                                 <h5  className=" " uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">Dedicated teachers inspire young minds and  <span className="greenText">
                                 build a creative hub </span>   </h5>
-                                <p className="subText uk-text-left paddingRight ">Top teachers, the right approach and an open attitude to learning are the 
+                                <p className="subText uk-text-left  ">Top teachers, the right approach and an open attitude to learning are the 
                                 ingredients that promise results in school.</p>
                                 </div>
                                     
+                                   <div className="uk-grid uk-grid-collapse" data-uk-grid>
+                                       <div className="uk-width-1-6 ">
+                                       <div className="uk-text-center"> <img src= {check} className="iconCheck " /></div>
+                                       </div>
+                                       <div className="uk-width-5-6 ">
+                                             <p>Recruited from top tech universities like MIT or NYU</p>
+                                       </div>
+                                   </div>
 
-                                   <div className="uk-"> 
-                                <div class="uk-flex ">
-                                        <div class="iconCheck"><img src= {check}  uk-scrollspy="cls: uk-animation-fade; repeat: true"/></div>
-                                        <div class="iconHeader uk-margin-left"     uk-scrollspy="cls: uk-animation-fade; repeat: true"><p>Recruited from top tech universities like MIT or NYU</p></div>
-                                        
-                                </div>
-                                
+                                   <div className="uk-grid uk-grid-collapse uk-margin-small-top" data-uk-grid>
+                                       <div className="uk-width-1-6 ">
+                                       <div className="uk-text-center"> <img src= {check} className="iconCheck " /></div>
+                                       </div>
+                                       <div className="uk-width-5-6 ">
+                                             <p>USA-based teachers selected after extensive background checks</p>
+                                       </div>
+                                   </div>
 
-                                <div class="uk-flex">
-                                        <div class="iconCheck"><img src= {check}  uk-scrollspy="cls: uk-animation-fade; repeat: true"/></div>
-                                        <div class="iconHeader uk-margin-left "    uk-scrollspy="cls: uk-animation-fade; repeat: true"><p>USA-based teachers selected after extensive background checks</p></div>
-                                        
-                                </div>
-
-
-
-                                <div class="uk-flex">
-                                        <div class="iconCheck"><img src= {check}  uk-scrollspy="cls: uk-animation-fade; repeat: true"/></div>
-                                        <div class="iconHeader uk-margin-left"   uk-scrollspy="cls: uk-animation-fade; repeat: true"><p>Deliver results with proven teaching methods for all students</p></div>
-                                        
-                                </div>
-
-
-                                <div class="uk-flex">
-                                        <div class="iconCheck"><img src= {check}  uk-scrollspy="cls: uk-animation-fade; repeat: true"/></div>
-                                        <div class="iconHeader uk-margin-left"  uk-scrollspy="cls: uk-animation-fade; repeat: true"><p>Know how to connect to students and develop their creative curiosity</p></div>
-                                        
-                                </div>
-
-                                <div class="uk-flex withPadding ">
-                                        <Link to="/teacher"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Meet Our Teachers</div> </Link>
-                                        </div>
+                                   <div className="uk-grid uk-grid-collapse uk-margin-small-top" data-uk-grid>
+                                       <div className="uk-width-1-6 ">
+                                       <div className="uk-text-center"> <img src= {check} className="iconCheck " /></div>
+                                       </div>
+                                       <div className="uk-width-5-6 ">
+                                             <p>Deliver results with proven teaching methods for all students</p>
+                                       </div>
+                                   </div>
 
 
-                               </div>
+
+                                   <div className="uk-grid uk-grid-collapse uk-margin-small-top" data-uk-grid>
+                                       <div className="uk-width-1-6 ">
+                                       <div className="uk-text-center"> <img src= {check} className="iconCheck " /></div>
+                                       </div>
+                                       <div className="uk-width-5-6 ">
+                                             <p>Know how to connect to students and develop their creative curiosity</p>
+                                       </div>
+                                   </div>
+
+                                   <div class="uk-flex withPadding ">
+        <Link to="/teacher"><div class="btn uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Meet Our Teachers</div> </Link>
+        </div>
+                               
 
 
                                 </div>

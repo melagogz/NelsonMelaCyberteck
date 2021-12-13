@@ -13,11 +13,25 @@ import stats2 from "./../../../images/stats2.png";
 import stats3 from "./../../../images/stats3.png";
 import stats4 from "./../../../images/stats4.png";
 import { Link } from "react-router-dom";
+import bgTechBlock from './../../../images/landing_bg.png'
 
 
 const TechWideWorldBlock = () => (
         
-    <section className="bgTechBlock   uk-padding-small">
+    <section 
+    
+    style={{ backgroundImage: `url(${bgTechBlock})`,
+           backgroundRepeat: 'no-repeat',
+           backgroundSize: 'cover',
+           
+           paddingBottom: '140px',
+           height: 'auto',
+   
+           
+       
+             }}
+    
+    className="   uk-padding-small">
           <div className="uk-container">
                         <div className="uk-grid" data-uk-grid>
                             <div className="uk-width-1-2@s">

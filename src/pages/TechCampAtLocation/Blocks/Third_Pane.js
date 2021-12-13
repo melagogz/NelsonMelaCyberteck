@@ -40,7 +40,7 @@ const Third_Pane = () => (
                                 <div className="uk-margin-medium-top">
                                 <div>
                                     <div class="uk-card uk-card-default uk-card-body uk-padding-remove ">
-                                        <img src={whychooseicon2} className="icon uk-margin-large-top uk-margin-bottom-small"/>
+                                        <img src={whychooseicon2} className="icon uk-margin-small-top uk-margin-bottom-small"/>
                                         <h6 className="uk-text-bold uk-margin-remove-top">Dedicated Teachers</h6>
                                         <p className="iconParagraphSmall uk-padding-small">Selected from top tech experts, our educators awake students’ 
                                         interest and build up know-how and creativity in the fascinating world of tech.
@@ -54,7 +54,7 @@ const Third_Pane = () => (
                         <div class="uk-child-width-expand@s uk-margin-medium-top uk-grid-small uk-text-center" data-uk-grid>
                                 <div>
                                     <div class="uk-card uk-card-default  uk-card-body uk-padding-remove ">
-                                        <img src={whychooseicon6} className="icon  uk-margin-bottom-small"/>
+                                        <img src={whychooseicon6} className="icon uk-margin-small-top  uk-margin-bottom-small"/>
                                         <h6 className="uk-text-bold uk-margin-remove-top">Make Tech Camps fun</h6>
                                         <p className="iconParagraphSmall uk-padding-small">We deliver education through game design, video animations and modelling.
                                            students perceive as interesting and time flies while gathering up knowledge.
@@ -67,7 +67,7 @@ const Third_Pane = () => (
                                 <div  className="uk-margin-medium-top">
                                       <div>
                                     <div class="uk-card uk-card-default uk-card-body uk-padding-remove ">
-                                        <img src={whychooseicon3} className="icon  uk-margin-bottom-small"/>
+                                        <img src={whychooseicon3} className="icon uk-margin-small-top uk-margin-bottom-small"/>
                                         <h6 className="uk-text-bold uk-margin-remove-top">Flexibility to fit all parents</h6>
                                         <p className="iconParagraphSmall uk-padding-small">We bring you our partner Locations to make it even more accessible. Check 
                                         out Schools or Parks&Rec Centers and see what is your best option.

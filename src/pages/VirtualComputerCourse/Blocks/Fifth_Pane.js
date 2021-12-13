@@ -2,6 +2,7 @@ import react from 'react';
 import discovery_image from "./../../../images/discovery_lesson_image.png"
 import {Link} from 'react-router-dom'
 import check from './../../../images/check.png'
+import virtual_img_bg from './../../../images/virtual_img_bg.jpg'
 
 
 
@@ -113,7 +114,19 @@ const Fifth_Pane = () => (
 
 
                      <div className="uk-width-1-2@s">
-                            <div className="virtual_img_bg">
+                            <div className=""
+                             style={{ backgroundImage: `url(${virtual_img_bg})`,
+                             backgroundRepeat: 'no-repeat',
+                             backgroundSize: 'cover',
+                             paddingBottom: '50px',
+                             height: '60vh',
+                     
+                             
+                         
+                               }}
+                            
+                            
+                            >
                                    
                             </div>
 

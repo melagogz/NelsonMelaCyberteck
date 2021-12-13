@@ -1,12 +1,29 @@
 import react from 'react';
 import { Link } from "react-router-dom";
 import './../teachers.css'
+import teachersPageBg from './../../../images/staff-min.PNG'
 
 
 
 const First_Pane = () => (
          <div className="">
-    <div className="teachersPageBg">
+    <div className=""
+    
+    
+    
+    style={{ backgroundImage: `url(${teachersPageBg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    paddingBottom: '100px'
+
+    
+
+      }}
+      
+    
+    
+    
+    >
             
     <div className="uk-container " >
     <div className="uk-grid  " data-uk-grid>

@@ -12,9 +12,21 @@ import dedicated_teachers from './../../../images/Dedicated_teachers.png';
 import experience from './../../../images/experience.png';
 import flexibility_affordability from './../../../images/flexibility_affordability.png'
 
+import secondPaneBg from './../../../images/curvedBg.jpg'
+
 export default () => {
     return (
-       <div className=" secondPaneBg">
+       <div className=" "
+       
+       style={{ backgroundImage: `url(${secondPaneBg})`,
+       backgroundRepeat: 'no-repeat',
+       backgroundSize: 'cover',
+       paddingBottom: '27px',
+       height: 'auto',
+         }}
+       
+       
+       >
            <div className="uk-container">
                <div className=" " data-uk-grid>
                     <div className="uk-width-1-2@s uk-hidden@s  ">

@@ -52,6 +52,8 @@ import Data from "../../Data";
 import Api from "../../Api";
 import { useAuthorize } from "../../features/Authentication/Authorize";
 
+import techCampHeader from './../../images/techCampBg.jpg' 
+
 
 
 
@@ -77,8 +79,19 @@ export default function TechCampCoursePage(props) {
 
     return (
         <Layout>
-                 <section className="techCampHeader">
-                  <div className="uk-container uk-padding">
+                 <section className="">
+
+                     {/**DESKTOP VIEW**/}
+
+            <div className="uk-visible@s"
+            style={{ backgroundImage: `url(${techCampHeader})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            paddingBottom: '37px',
+            height: '70vh',
+                }}>
+
+                <div className="uk-container uk-padding ">
                 <div className="uk-grid " data-uk-grid>
                 <div className="uk-width-2-3@s  ">
                       <div className="uk-margin-xlarge-top " >
@@ -108,6 +121,55 @@ export default function TechCampCoursePage(props) {
                     </div>
                 </div>
             </div>
+            </div>
+
+
+                  {/**MOBILE VIEW**/}
+                    
+                    <div className="uk-hidden@s"
+                     style={{ backgroundImage: `url(${techCampHeader})`,
+                     backgroundRepeat: 'no-repeat',
+                     backgroundSize: 'cover',
+                     paddingBottom: '67px',
+                     height: 'auto',
+                       }}
+                    >
+                  <div className="uk-container uk-padding ">
+                <div className="uk-grid " data-uk-grid>
+                <div className="uk-width-2-3@s  ">
+                      <div className="uk-margin-xlarge-top " >
+                          <h1 className="header1 light withPadding uk-padding" uk-scrollspy="cls: uk-animation-slide-left; repeat: true"> Experience fun and learn with CyberTeck Academy Camps </h1>
+                          <p className="subTitleText " uk-scrollspy="cls: uk-animation-slide-left; repeat: true"> Put  that school-free time to good use and get your child excited about tech. Technology-focused courses to make your child part of a smart group of friends.
+  </p>
+                      </div>
+
+                      <div class="uk-flex uk-margin-large-top ">
+                         
+                             <div>
+                                
+                {
+                    !isStudent && !isTeacher &&
+                    <Link rounded component={PrimaryButton}
+                        onClick={registerHandle}>Register</Link>
+                }
+                
+                             </div>
+                        
+                      </div>
+  
+                 </div>
+
+                    <div className="uk-width-1-3@s">
+                        
+                    </div>
+                </div>
+            </div></div>
+
+
+
+
+
+
             </section>
 
              <First_Pane /> 

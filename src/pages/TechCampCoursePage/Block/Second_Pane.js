@@ -2,6 +2,7 @@ import react from 'react';
 import bIcon from './../../../images/bIcon2.png'
 import schoolLocation from './../../../images/courses-at-school-location-icon.png'
 import {Link } from 'react-router-dom'
+import studentBg from './../../../images/student_bg.jpg'
 
 
 
@@ -12,7 +13,7 @@ const Second_Pane = () => (
 
             <section className="uk-margin-xlarge-bottom">
                     <div className="uk-grid-collapse uk-grid" data-uk-grid>
-                         <div className="uk-width-1-2@s">
+                         <div className="uk-width-1-2@l">
                              <div className="techCampGrayBg uk-padding-large">
                                       <h3 className="header3 uk-text-center uk-padding normalPaddingLR">Pick your Camp and choose your ground</h3>
                                       <div className="negativeDiv normalPaddingLR">   
@@ -57,8 +58,17 @@ const Second_Pane = () => (
                                     </div>
                          </div>
 
-                         <div className="uk-width-1-2@s">
-                             <div className="studentBg" role="img" aria-label="[Online Coding Camp]">
+                         <div className="uk-width-1-2@l">
+                             <div className="" role="img" aria-label="[Online Coding Camp]"
+                             
+                             style={{ backgroundImage: `url(${studentBg})`,
+                             backgroundRepeat: 'no-repeat',
+                             backgroundSize: 'cover',
+                             paddingBottom: '67px',
+                             height: '73vh',
+                               }}
+                             
+                             >
                                    
                            
                              

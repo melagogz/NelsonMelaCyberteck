@@ -19,7 +19,7 @@ const Second_Pane = () => (
             <div className="">
                   <div className="uk-grid-collapse" data-uk-grid>
                         <div className="uk-width-1-2@s lightBlueBg ">
-                            <div className="uk-margin-large-left uk-padding uk-padding-large">
+                            <div className="  uk-padding-large">
                              <h3 className="header3">CyberTeck Academy: a long history in creating <span  >great camp experiences</span> with a tech twist</h3>
                           
                              <p>Use your child’s school-free time for a great tech project shared with friends. All under the guidance of dedicated teachers. </p>

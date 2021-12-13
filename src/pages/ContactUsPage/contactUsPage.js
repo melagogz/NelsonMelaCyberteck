@@ -23,6 +23,8 @@ import message  from "./../../images/message.png"
 import faqdata from "../FaqPage/faqdata";
 import { useDispatch, useSelector } from "react-redux";
 import { contactUs } from "./../../DataStore/AuthReducer"
+import heroBgContact from './../../images/contact_us.jpg'
+import Contact_UsBg from './../../images/contact_usBg.jpg'
 
 
 
@@ -33,8 +35,26 @@ export default function ContactUsPage(props) {
 
     return (
 
-        <Layout fillHeader >
-               <section className="heroBgContact">
+        <Layout  >
+               <section className=""
+               
+               
+               style={{ backgroundImage: `url(${heroBgContact})`,
+               backgroundRepeat: 'no-repeat',
+               backgroundSize: 'cover',
+               paddingBottom: '100px'
+           
+               
+           
+                 }}
+                 
+               
+               
+               
+               
+               
+               
+               >
                  <div className="uk-container" >
                    <div className="uk-grid  " data-uk-grid>
                      <div className="uk-width-3-4@s">
@@ -57,7 +77,24 @@ export default function ContactUsPage(props) {
 
 
 
-                <section className="Contact_UsBg">
+                <section className=""
+                
+                
+                
+                style={{ backgroundImage: `url(${Contact_UsBg})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                paddingBottom: '100px',
+                paddingTop: '100px',
+            
+                
+            
+                  }}
+                  
+                
+                
+                
+                >
                <div className="uk-container uk-margin-medium-bottom">
                      <div className="uk-grid" data-uk-grid>
                               <div className="uk-width-1-2@s">
@@ -166,7 +203,7 @@ export default function ContactUsPage(props) {
                                                     <div className="iconDiv">
                                                             <img src={contactIcon1} className="iconBig"/>
                                                             <h6 className="uk-margin-remove uk-text-bold">Courses</h6>
-                                                            <p className="iconParagraphSmall uk-padding-small">Nulla quis lorem ut libero malesuada?</p>
+                                                            <p className="iconParagraphSmall uk-padding-small"></p>
                                                             <Link to="/courses"><div class=" uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">See all Courses</div> </Link>
                                     
                                                     </div>
@@ -181,9 +218,9 @@ export default function ContactUsPage(props) {
                                                     <div className="uk-flex-center uk-flex">
                                                         <div className="iconDiv">
                                                                 <img src={contactIcon2} className="iconBig"/>
-                                                                <h6 className="uk-margin-remove uk-text-bold">Students Portal</h6>
-                                                                <p className="iconParagraphSmall uk-padding-small">Nulla quis lorem ut libero malesuada?</p>
-                                                                <Link to="/courses"><div class=" uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Login</div> </Link>
+                                                                <h6 className="uk-margin-remove uk-text-bold">Parent Dashboard</h6>
+                                                                <p className="iconParagraphSmall uk-padding-small"></p>
+                                                                <Link to="/#"><div class=" uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Login</div> </Link>
                                         
                                                         </div>
                                                     </div>
@@ -201,8 +238,8 @@ export default function ContactUsPage(props) {
                                                         <div className="iconDiv">
                                                                 <img src={contactIcon3} className="iconBig"/>
                                                                 <h6 className="uk-margin-remove uk-text-bold">Careers</h6>
-                                                                <p className="iconParagraphSmall uk-padding-small">Nulla quis lorem ut libero malesuada?</p>
-                                                                <Link to="/courses"><div class=" uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">View Roless</div> </Link>
+                                                                <p className="iconParagraphSmall uk-padding-small"></p>
+                                                                <Link to="/contactus"><div class=" uk-text-center " uk-scrollspy="cls: uk-animation-slide-left; repeat: true">View Roles</div> </Link>
                                         
                                                         </div>
                                                     </div>

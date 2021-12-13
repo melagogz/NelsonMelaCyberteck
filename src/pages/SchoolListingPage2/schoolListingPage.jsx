@@ -16,6 +16,7 @@ import SearchSchools from './blocks/search_school';
 import CoursesPark from './blocks/courses_prk_rec';
 import ContactModal from './../../features/ContactModal';
 import { TabularSchoolList } from './../SchoolListingPage/schoolListingPage';
+import Teachers from  './../HomePage/Blocks/AmazingTeachersBlock'
 
 
 export default () => {
@@ -29,6 +30,7 @@ export default () => {
             <SchoolDescription />
               {/* <CoursesSection />  */}
             <ProgramInfo />
+           <div className="uk-margin-xlarge-top"><Teachers /></div> 
             <SearchSchools className="CourseSearchArea"/>
             <Container style={{ marginTop: 30 }}>
                 <Grid container direction="row" alignItems="center" justifyContent="center">

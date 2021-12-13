@@ -4,12 +4,23 @@ import { Link }  from 'react-router-dom'
 import check from './../../../images/check.png'
 
 import imagePane from './../../../images/image_paneNew.png'
+import curvedBgVirtTech from './../../../images/curve_laptop.png'
 
 
 
 const Fifth_Pane = () => (
       
-    <div className="curvedBgVirtTech">
+    <div className=""
+    
+    style={{ backgroundImage: `url(${curvedBgVirtTech})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    paddingBottom: '67px',
+    height: 'auto',
+      }}
+    
+    
+    >
 
         <div className="uk-grid " data-uk-grid>
       <div className="uk-width-1-2@s">
@@ -70,12 +81,12 @@ const Fifth_Pane = () => (
 
 
                                             <div className="uk-grid-collapse" data-uk-grid>
-                                                <div className="uk-width-1-5">
+                                                <div className="uk-width-1-5  uk-text-center">
                                                     <img src ={check} className="iconVirt"/>
                                                 </div>
 
                                                 <div className="uk-width-4-5">
-                                                    <p className="textLeft ">Customized tech pathway for your child and 1-on-1 
+                                                    <p className=" ">Customized tech pathway for your child and 1-on-1 
                                                     time and attention to having the fastest way of building in-demand tech skills. 
 </p>
                                                 </div>
@@ -85,12 +96,12 @@ const Fifth_Pane = () => (
                                             <div className="marginTopSmall">
                                             <div className="uk-grid-collapse " data-uk-grid>
                                                 
-                                                <div className="uk-width-1-5">
+                                                <div className="uk-width-1-5  uk-text-center">
                                                     <img src ={check} className="iconVirt"/>
                                                 </div>
 
                                                 <div className="uk-width-4-5">
-                                                    <p className="textLeft ">Enjoy max flexibility: time slots and hours booked to fit
+                                                    <p className=" ">Enjoy max flexibility: time slots and hours booked to fit
                                                      your needs. Course options tailored to fit every student. Everything at the best rates.
 </p>
                                                 
@@ -102,12 +113,12 @@ const Fifth_Pane = () => (
 
                                             <div className="marginTopSmall">
                                             <div className="uk-grid-collapse " data-uk-grid>
-                                                <div className="uk-width-1-5">
+                                                <div className="uk-width-1-5  uk-text-center">
                                                     <img src ={check} className="iconVirt"/>
                                                 </div>
 
                                                 <div className="uk-width-4-5 uk-margin-left-remove">
-                                                    <p className="textLeft ">The future is Tech and fun, just 
+                                                    <p className=" ">The future is Tech and fun, just 
                                                     like our courses. Coding basics and creativity developed
                                                      with everything from Roblox to Minecraft.</p>
                                                 </div>
@@ -118,12 +129,12 @@ const Fifth_Pane = () => (
 
                                             <div className="marginTopSmall">
                                             <div className="uk-grid-collapse " data-uk-grid>
-                                                <div className="uk-width-1-5">
+                                                <div className="uk-width-1-5  uk-text-center">
                                                     <img src ={check} className="iconVirt"/>
                                                 </div>
 
                                                 <div className="uk-width-4-5">
-                                                    <p className="textLeft ">We bring the chance to learn @home or
+                                                    <p className=" ">We bring the chance to learn @home or
                                                      anywhere. Virtual options available because education doesn’t
                                                       have to slow down.
 

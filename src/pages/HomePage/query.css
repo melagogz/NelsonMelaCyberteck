@@ -20,7 +20,8 @@
 }
 
 .headerBg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../images/headerBg.jpg');
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/heroBg.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/heroBg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -174,7 +175,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../images/headerBgSmall.jpg');
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+    
         height: 700px;
       }
 
@@ -248,9 +249,29 @@
       top: 18px;
   }
 
-
-
-
     }
+
+
+
+    
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  
+ 
+
+
+
+  
+  .headerBg{
+    background: url("../../images/headerBg.jpg") no-repeat fixed center center transparent;
+-webkit-background-size: 350px 660px;
+-moz-background-size: cover;
+background-size: cover;
+  
+}
+
+
+
+}
 
 

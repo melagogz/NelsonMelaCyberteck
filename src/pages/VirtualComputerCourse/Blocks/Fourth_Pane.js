@@ -100,7 +100,7 @@ const Fourth_Pane = () => (
 
                                            <div className="uk-grid-collapse uk-margin-top-remove  uk-padding-small" data-uk-grid>
                                                 <div className="uk-width-1-5">
-                                                      <img src= {check} className="iconSecure" />
+                                                      <img src= {check} className="iconCheck" />
                                                  </div>
                                                  
                                                  <div className="uk-width-4-5">
@@ -133,7 +133,7 @@ const Fourth_Pane = () => (
 
                                                 <div className="uk-width-2-3">
                                                    <div className="">
-                                                       <p className="smallText uk-text-bold uk-text-center"> Nos risk, cancel any time </p>
+                                                       <p className="smallText uk-text-bold uk-text-center"> No risk, cancel any time </p>
                                                    </div>
                                                 </div>
                                          </div>
@@ -199,7 +199,7 @@ const Fourth_Pane = () => (
 
                                            <div className="uk-grid-collapse uk-margin-small-top uk-padding-small" data-uk-grid>
                                                 <div className="uk-width-1-5">
-                                                      <img src= {check} className="s" />
+                                                      <img src= {check} className="iconCheck" />
                                                  </div>
                                                  
                                                  <div className="uk-width-4-5">
@@ -274,7 +274,7 @@ const Fourth_Pane = () => (
 
                                                 <div className="uk-width-2-3">
                                                    <div className="">
-                                                       <p className="smallText uk-text-bold uk-text-center"> Nos risk, cancel any time </p>
+                                                       <p className="smallText uk-text-bold uk-text-center"> No risk, cancel any time </p>
                                                    </div>
                                                 </div>
                                          </div>
@@ -419,13 +419,13 @@ const Fourth_Pane = () => (
                                                 
                                                 <div className="uk-width-1-3">
                                                    <div className="uk-margin-left">
-                                                       <img src= {secured}  className=""/>
+                                                       <img src= {secured}  className="iconSecure"/>
                                                    </div>
                                                 </div>
 
                                                 <div className="uk-width-2-3">
                                                    <div className="">
-                                                       <p className="smallText uk-text-bold uk-text-center"> Nos risk, cancel any time </p>
+                                                       <p className="smallText uk-text-bold uk-text-center"> No risk, cancel any time </p>
                                                    </div>
                                                 </div>
                                          </div>

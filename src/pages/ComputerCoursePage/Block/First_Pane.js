@@ -13,7 +13,7 @@ const First_Pane = () => {
         return (
 
 
-            <div className="ComputerCourseBg">
+            <div className="">
             
             <div className="uk-container" >
             <div className="uk-grid  " data-uk-grid>

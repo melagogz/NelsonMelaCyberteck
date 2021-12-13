@@ -43,7 +43,7 @@ export default function CodingCoursePage(props) {
     }
 
     return (
-        <Layout className="detailsBlock">
+        <Layout className="">
             {
 
                 <HeaderBox style={{ paddingTop: '35%' }} fullWidth coverPic={coverImg}>

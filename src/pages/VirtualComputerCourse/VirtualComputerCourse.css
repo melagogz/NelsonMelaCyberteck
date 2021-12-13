@@ -84,13 +84,6 @@
 }
 
 
-.virtual_img_bg{
-    background-image: url("./../../images/virtual_img_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 60vh;
-    padding-top: 20px;
-}
 
 .iconVirt{
     width: 50px;

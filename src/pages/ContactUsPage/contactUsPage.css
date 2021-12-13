@@ -1,7 +1,8 @@
 
   .heroBgContact{
-   
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/contact_us.jpg");
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/contact_us.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -122,14 +123,13 @@
     
     
     
-
-  .heroBgContact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/contact_us.jpg");
+      .heroBgContact{
+        background: url("../../images/contact_us.jpg") no-repeat fixed center center transparent;
+    -webkit-background-size: 350px 660px;
+    -moz-background-size: cover;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 49vh;
-}
+      
+    }
 
 
 
@@ -146,19 +146,27 @@
 
     
     
-    
-    
-    
-    
-    
-    
     }
 
 
+    
+    
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  
+  .heroBgContact{
+    background: url("../../images/contact_us.jpg") no-repeat fixed center center transparent;
+-webkit-background-size: 350px 660px;
+-moz-background-size: cover;
+background-size: cover;
+  
+}
 
 
 
 
+
+}
 
 
 

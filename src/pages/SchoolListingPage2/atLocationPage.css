@@ -1,11 +1,6 @@
-.atLocationHeaderBg{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/schools_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: auto;
-    padding-bottom: 60px;
-    padding-top: 80px;
+.moveUp{
+    position: relative;
+    top:-140px;
 }
 
 .animationBg{
@@ -25,14 +20,6 @@
     
 }
 
-.secondPaneBg{
-    background-image: url("../../images/curvedBg.jpg");
-    background-size: cover;
- 
-    height: aut0;
-    padding-bottom: 60px;
-    padding-top: 80px;
-}
 
 .schoolDescIconBg{
     background-color: #73d56e;
@@ -253,7 +240,7 @@
 
 .introImg1 {
     position: absolute;
-    top: 583px;
+    top: 770px;
     left: 129px;
     width: 55%;
 }
@@ -264,7 +251,7 @@
     box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
     padding: 15px;
     border-radius: 10px;
-    width: 315px;
+    width: 300px;
     margin-left: 10px;
     padding-bottom: 20px;
     padding-top: 30px;
@@ -291,19 +278,25 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
+    
 
 
+    
+    
+    /* Small phones to small tablets: from 0 to 481px */
+
+    @media only screen and (max-width: 481px) {
+    
+    
+        .introImg1 {
+            position: absolute;
+            top: 790px;
+            left: 129px;
+            width: 55%;
+        }
+    
+    
+    }
 
 

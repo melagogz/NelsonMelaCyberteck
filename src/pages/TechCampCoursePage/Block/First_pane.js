@@ -1,5 +1,6 @@
 import react from 'react'
 import check from './../../../images/check.png'
+import leftTeckBg from './../../../images/leftBg.png'
 
 
 
@@ -32,7 +33,17 @@ const First_Pane = () => (
 
                  <div className="uk-grid uk-margin-small-top uk-margin-large-bottom" data-uk-grid>
                                    <div className="uk-width-1-2@l uk-margin-top ">
-                                         <div className="leftTeckBg "  uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+
+                                         <div className=" "  uk-scrollspy="cls: uk-animation-slide-left; repeat: true"
+                                         
+                                         style={{ backgroundImage: `url(${leftTeckBg})`,
+                                         backgroundRepeat: 'no-repeat',
+                                         backgroundSize: 'cover',
+                                         paddingBottom: '67px',
+                                         height: '70vh',
+                                           }}
+                                         
+                                         >
 
                                          </div>
                                          
